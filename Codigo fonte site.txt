@@ -1,0 +1,1775 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="choch-delicadeza-container">
+        <div class="choch-delicadeza-choch-delicadeza">
+          <div class="choch-delicadeza-section">
+            <div class="choch-delicadeza-divcontainerfluid">
+              <div class="choch-delicadeza-divrow">
+                <div class="choch-delicadeza-divcol">
+                  <div class="choch-delicadeza-divjshomeslider">
+                    <div class="choch-delicadeza-divswiperwrapper">
+                      <div class="choch-delicadeza-divswiperslide">
+                        <div class="choch-delicadeza-divsliderslide">
+                          <img
+                            src="public/external/image6fdee9dcdb974a99b4efc0c0b14aed4014487-cwd-700h.png"
+                            alt="IMAGE6fdee9dcdb974a99b4efc0c0b14aed4014487"
+                            class="choch-delicadeza-image6fdee9dcdb974a99b4efc0c0b14aed401"
+                          />
+                        </div>
+                        <div class="choch-delicadeza-divswipertext">
+                          <div class="choch-delicadeza-divswiperdescription">
+                            <span class="choch-delicadeza-text">
+                              <span>FABRICAÇÃO PRÓPRIA</span>
+                            </span>
+                          </div>
+                          <div class="choch-delicadeza-divswipertitle">
+                            <span class="choch-delicadeza-text002">
+                              <span>
+                                <span>Qualidade nos</span>
+                                <br />
+                                <span>produtos</span>
+                              </span>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="choch-delicadeza-divjsswiperhomecontrol">
+                      <img
+                        src="public/external/spanswiperpaginationbullet118-p8f-200h.png"
+                        alt="spanswiperpaginationbullet118"
+                        class="choch-delicadeza-spanswiperpaginationbullet"
+                      />
+                      <img
+                        src="public/external/spanswiperpaginationbullet119-ow6-200h.png"
+                        alt="spanswiperpaginationbullet119"
+                        class="choch-delicadeza-spanswiperpaginationbullet1"
+                      />
+                    </div>
+                    <div class="choch-delicadeza-divjsswiperhomecontrol1">
+                      <img
+                        src="public/external/svg121-ix6t.svg"
+                        alt="SVG121"
+                        class="choch-delicadeza-svg"
+                      />
+                    </div>
+                    <div class="choch-delicadeza-divjsswiperhomecontrol2">
+                      <img
+                        src="public/external/svg125-ksd3.svg"
+                        alt="SVG125"
+                        class="choch-delicadeza-svg01"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="choch-delicadeza-section1">
+            <div class="choch-delicadeza-divcontainer">
+              <div class="choch-delicadeza-divrow01">
+                <div class="choch-delicadeza-divjsinformativebanners">
+                  <div class="choch-delicadeza-divswiperwrapper1">
+                    <div class="choch-delicadeza-divserviceitemcontainer">
+                      <div class="choch-delicadeza-divrow02">
+                        <div class="choch-delicadeza-divcolauto">
+                          <img
+                            src="public/external/svg136-6wao.svg"
+                            alt="SVG136"
+                            class="choch-delicadeza-svg02"
+                          />
+                        </div>
+                        <div class="choch-delicadeza-divcol1">
+                          <div class="choch-delicadeza-heading3">
+                            <span class="choch-delicadeza-text007">
+                              <span>5% off na primeira compra</span>
+                            </span>
+                          </div>
+                          <div class="choch-delicadeza-pm0">
+                            <span class="choch-delicadeza-text009">
+                              <span>Cupom: PRIMEIRACOMPRA</span>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="choch-delicadeza-divserviceitemcontainer1">
+                      <div class="choch-delicadeza-divrow03">
+                        <div class="choch-delicadeza-divcolauto1">
+                          <img
+                            src="public/external/svg147-scng.svg"
+                            alt="SVG147"
+                            class="choch-delicadeza-svg03"
+                          />
+                        </div>
+                        <div class="choch-delicadeza-divcol2">
+                          <div class="choch-delicadeza-heading31">
+                            <span class="choch-delicadeza-text011">
+                              <span>Até 6x sem juros</span>
+                            </span>
+                          </div>
+                          <div class="choch-delicadeza-pm01">
+                            <span class="choch-delicadeza-text013">
+                              <span>Com cartões de crédito</span>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="choch-delicadeza-divserviceitemcontainer2">
+                      <div class="choch-delicadeza-divrow04">
+                        <div class="choch-delicadeza-divcolauto2">
+                          <img
+                            src="public/external/svg158-7h8e.svg"
+                            alt="SVG158"
+                            class="choch-delicadeza-svg04"
+                          />
+                        </div>
+                        <div class="choch-delicadeza-divcol3">
+                          <div class="choch-delicadeza-heading32">
+                            <span class="choch-delicadeza-text015">
+                              <span>5% de desconto</span>
+                            </span>
+                          </div>
+                          <div class="choch-delicadeza-pm02">
+                            <span class="choch-delicadeza-text017">
+                              <span>Pagando com PIX</span>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="choch-delicadeza-section2">
+            <div class="choch-delicadeza-divcontainer1">
+              <div class="choch-delicadeza-divrow05">
+                <div class="choch-delicadeza-divcol12">
+                  <div class="choch-delicadeza-heading2">
+                    <span class="choch-delicadeza-text019">
+                      <span>Destaques</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="choch-delicadeza-divcol121">
+                  <div class="choch-delicadeza-divjsswiperfeatured">
+                    <div class="choch-delicadeza-divswiperwrapper2">
+                      <div class="choch-delicadeza-divswiperslide01">
+                        <div class="choch-delicadeza-divquick153814090primary">
+                          <div
+                            class="choch-delicadeza-divjsitemwithsecondaryimage"
+                          >
+                            <div class="choch-delicadeza-divpositionrelative">
+                              <img
+                                src="public/external/image0ccbe7202348444f8b238e43aebb0fc3160b77701cf63188-e4fa-400h.png"
+                                alt="IMAGE0ccbe7202348444f8b238e43aebb0fc3160b77701cf63188"
+                                class="choch-delicadeza-image0ccbe7202348444f8b238e43aebb0fc3160b77701cf63"
+                              />
+                            </div>
+                            <div class="choch-delicadeza-divjsofferlabel">
+                              <span class="choch-delicadeza-text021">
+                                <span>
+                                  <span>12%</span>
+                                  <br />
+                                  <span>OFF</span>
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="choch-delicadeza-divitemdescription">
+                            <div
+                              class="choch-delicadeza-link-tapete-redondo-hortncia"
+                            >
+                              <div class="choch-delicadeza-divjsitemname">
+                                <span class="choch-delicadeza-text026">
+                                  <span>Tapete Redondo Hortência</span>
+                                </span>
+                              </div>
+                              <div
+                                class="choch-delicadeza-divitempricecontainer"
+                              >
+                                <span class="choch-delicadeza-text028">
+                                  <span>R$199,90</span>
+                                </span>
+                                <span class="choch-delicadeza-text030">
+                                  <span>R$175,00</span>
+                                </span>
+                              </div>
+                            </div>
+                            <div class="choch-delicadeza-divjsmaxinstallments">
+                              <span class="choch-delicadeza-text032">
+                                <span class="choch-delicadeza-text033">6</span>
+                                <span class="choch-delicadeza-text034">
+                                  x de
+                                </span>
+                                <span class="choch-delicadeza-text035">
+                                  R$29,17
+                                </span>
+                                <span>sem juros</span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="choch-delicadeza-divswiperslide02">
+                        <div class="choch-delicadeza-divquick139325834primary">
+                          <div
+                            class="choch-delicadeza-divjsitemwithsecondaryimage1"
+                          >
+                            <div class="choch-delicadeza-divpositionrelative01">
+                              <img
+                                src="public/external/image18d1f84fd4214864874d0b748a02dac7164881978b8161104-lfon-400h.png"
+                                alt="IMAGE18d1f84fd4214864874d0b748a02dac7164881978b8161104"
+                                class="choch-delicadeza-image18d1f84fd4214864874d0b748a02dac7164881978b816"
+                              />
+                            </div>
+                            <div class="choch-delicadeza-divjsofferlabel1">
+                              <span class="choch-delicadeza-text037">
+                                <span>
+                                  <span>22%</span>
+                                  <br />
+                                  <span>OFF</span>
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="choch-delicadeza-divitemdescription01">
+                            <div
+                              class="choch-delicadeza-link-kit2-tapetes-oval-corujinha"
+                            >
+                              <div class="choch-delicadeza-divjsitemname01">
+                                <span class="choch-delicadeza-text042">
+                                  <span>Kit 2 Tapetes Oval Corujinha</span>
+                                </span>
+                              </div>
+                              <div
+                                class="choch-delicadeza-divitempricecontainer01"
+                              >
+                                <span class="choch-delicadeza-text044">
+                                  <span>R$89,90</span>
+                                </span>
+                                <span class="choch-delicadeza-text046">
+                                  <span>R$69,90</span>
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class="choch-delicadeza-divjsmaxinstallments01"
+                            >
+                              <span class="choch-delicadeza-text048">
+                                <span class="choch-delicadeza-text049">2</span>
+                                <span class="choch-delicadeza-text050">
+                                  x de
+                                </span>
+                                <span class="choch-delicadeza-text051">
+                                  R$34,95
+                                </span>
+                                <span>sem juros</span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="choch-delicadeza-divswiperslide03">
+                        <div class="choch-delicadeza-divquick155223847primary">
+                          <div class="choch-delicadeza-divpositionrelative02">
+                            <img
+                              src="public/external/aa3e370607094cac89246bdbb1fd1804137abeba4900ca53401118-ykup-400h.png"
+                              alt="aa3e370607094cac89246bdbb1fd1804137abeba4900ca53401118"
+                              class="choch-delicadeza-aa3e370607094cac89246bdbb1fd1804137abeba4900ca5340"
+                            />
+                          </div>
+                          <div class="choch-delicadeza-divitemdescription02">
+                            <div
+                              class="choch-delicadeza-link-tapete-oval-grande-bordado-com-bico-trabalhado-colori"
+                            >
+                              <div class="choch-delicadeza-divjsitemname02">
+                                <span class="choch-delicadeza-text053">
+                                  <span>
+                                    <span>
+                                      Tapete Oval Grande Bordado Com Bico
+                                    </span>
+                                    <br />
+                                    <span>Trabalhado Colorido</span>
+                                  </span>
+                                </span>
+                              </div>
+                              <div
+                                class="choch-delicadeza-divitempricecontainer02"
+                              >
+                                <span class="choch-delicadeza-text058">
+                                  <span>R$229,90</span>
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class="choch-delicadeza-divjsmaxinstallments02"
+                            >
+                              <span class="choch-delicadeza-text060">
+                                <span class="choch-delicadeza-text061">6</span>
+                                <span class="choch-delicadeza-text062">
+                                  x de
+                                </span>
+                                <span class="choch-delicadeza-text063">
+                                  R$38,32
+                                </span>
+                                <span>sem juros</span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="choch-delicadeza-divswiperslide04">
+                        <div class="choch-delicadeza-divquick141902483primary">
+                          <div
+                            class="choch-delicadeza-divjsitemwithsecondaryimage2"
+                          >
+                            <div class="choch-delicadeza-divpositionrelative03">
+                              <img
+                                src="public/external/image01470b7b99b64576b9d92ce86c020ca51842f0faf28541132-3s86-400h.png"
+                                alt="IMAGE01470b7b99b64576b9d92ce86c020ca51842f0faf28541132"
+                                class="choch-delicadeza-image01470b7b99b64576b9d92ce86c020ca51842f0faf2854"
+                              />
+                            </div>
+                            <div class="choch-delicadeza-divjsofferlabel2">
+                              <span class="choch-delicadeza-text065">
+                                <span>
+                                  <span>22%</span>
+                                  <br />
+                                  <span>OFF</span>
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="choch-delicadeza-divitemdescription03">
+                            <div
+                              class="choch-delicadeza-link-jogo-de-banheiro-ip-kit3-peas"
+                            >
+                              <div class="choch-delicadeza-divjsitemname03">
+                                <span class="choch-delicadeza-text070">
+                                  <span>
+                                    Jogo De Banheiro Ipê - Kit 3 Peças
+                                  </span>
+                                </span>
+                              </div>
+                              <div
+                                class="choch-delicadeza-divitempricecontainer03"
+                              >
+                                <span class="choch-delicadeza-text072">
+                                  <span>R$89,90</span>
+                                </span>
+                                <span class="choch-delicadeza-text074">
+                                  <span>R$69,90</span>
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class="choch-delicadeza-divjsmaxinstallments03"
+                            >
+                              <span class="choch-delicadeza-text076">
+                                <span class="choch-delicadeza-text077">2</span>
+                                <span class="choch-delicadeza-text078">
+                                  x de
+                                </span>
+                                <span class="choch-delicadeza-text079">
+                                  R$34,95
+                                </span>
+                                <span>sem juros</span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="choch-delicadeza-divjsswiperfeaturedprev">
+              <img
+                src="public/external/svg1136-zr0t.svg"
+                alt="SVG1136"
+                class="choch-delicadeza-svg05"
+              />
+            </div>
+            <div class="choch-delicadeza-divjsswiperfeaturednext">
+              <img
+                src="public/external/svg1140-7a6.svg"
+                alt="SVG1140"
+                class="choch-delicadeza-svg06"
+              />
+            </div>
+          </div>
+          <div class="choch-delicadeza-section3">
+            <div class="choch-delicadeza-divcontainer2">
+              <div class="choch-delicadeza-divrow06">
+                <div class="choch-delicadeza-divcol122">
+                  <div class="choch-delicadeza-heading21">
+                    <span class="choch-delicadeza-text081">
+                      <span>Lançamentos</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="choch-delicadeza-divcol123">
+                  <div class="choch-delicadeza-divjsswipernew">
+                    <div class="choch-delicadeza-divswiperwrapper3">
+                      <div class="choch-delicadeza-divswiperslide05">
+                        <div class="choch-delicadeza-divquick156295582new">
+                          <div class="choch-delicadeza-divpositionrelative04">
+                            <img
+                              src="public/external/image36f7ea2b865e40db95a7a19226ad2ced18766f062919f1163-osw6-400h.png"
+                              alt="IMAGE36f7ea2b865e40db95a7a19226ad2ced18766f062919f1163"
+                              class="choch-delicadeza-image36f7ea2b865e40db95a7a19226ad2ced18766f062919f"
+                            />
+                          </div>
+                          <div class="choch-delicadeza-divitemdescription04">
+                            <div
+                              class="choch-delicadeza-link-kit2-almofadas-croch-com-forro-modelo-flor"
+                            >
+                              <div class="choch-delicadeza-divjsitemname04">
+                                <span class="choch-delicadeza-text083">
+                                  <span>
+                                    <span>
+                                      Kit 2 Almofadas Crochê Com Forro
+                                    </span>
+                                    <br />
+                                    <span>Modelo Flor</span>
+                                  </span>
+                                </span>
+                              </div>
+                              <div
+                                class="choch-delicadeza-divitempricecontainer04"
+                              >
+                                <span class="choch-delicadeza-text088">
+                                  <span>R$119,90</span>
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class="choch-delicadeza-divjsmaxinstallments04"
+                            >
+                              <span class="choch-delicadeza-text090">
+                                <span class="choch-delicadeza-text091">4</span>
+                                <span class="choch-delicadeza-text092">
+                                  x de
+                                </span>
+                                <span class="choch-delicadeza-text093">
+                                  R$29,98
+                                </span>
+                                <span>sem juros</span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="choch-delicadeza-divswiperslide06">
+                        <div class="choch-delicadeza-divquick139633295new">
+                          <div class="choch-delicadeza-divpositionrelative05">
+                            <img
+                              src="public/external/img0043original1108b76bc274a5fd7bec1687202946605241173-rtd5-400h.png"
+                              alt="img0043original1108b76bc274a5fd7bec1687202946605241173"
+                              class="choch-delicadeza-img0043original1108b76bc274a5fd7bec168720294660524"
+                            />
+                          </div>
+                          <div class="choch-delicadeza-divitemdescription05">
+                            <div
+                              class="choch-delicadeza-link-sousplat-bandeja-moeda-colorida"
+                            >
+                              <div class="choch-delicadeza-divjsitemname05">
+                                <span class="choch-delicadeza-text095">
+                                  <span>Sousplat Bandeja Moeda Colorida</span>
+                                </span>
+                              </div>
+                              <div
+                                class="choch-delicadeza-divitempricecontainer05"
+                              >
+                                <span class="choch-delicadeza-text097">
+                                  <span>R$19,90</span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="choch-delicadeza-divswiperslide07">
+                        <div class="choch-delicadeza-divquick173324272new">
+                          <div class="choch-delicadeza-divpositionrelative06">
+                            <img
+                              src="public/external/c1ba7e7f54ac40f0962a919340b43c1e1915b7f96123675e1e1185-8s6g-400h.png"
+                              alt="c1ba7e7f54ac40f0962a919340b43c1e1915b7f96123675e1e1185"
+                              class="choch-delicadeza-c1ba7e7f54ac40f0962a919340b43c1e1915b7f96123675e1e"
+                            />
+                          </div>
+                          <div class="choch-delicadeza-divitemdescription06">
+                            <div
+                              class="choch-delicadeza-link-jogo-de-banheiro-degrad"
+                            >
+                              <div class="choch-delicadeza-divjsitemname06">
+                                <span class="choch-delicadeza-text099">
+                                  <span>Jogo De Banheiro Degradê</span>
+                                </span>
+                              </div>
+                              <div
+                                class="choch-delicadeza-divitempricecontainer06"
+                              >
+                                <span class="choch-delicadeza-text101">
+                                  <span>R$89,90</span>
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class="choch-delicadeza-divjsmaxinstallments05"
+                            >
+                              <span class="choch-delicadeza-text103">
+                                <span class="choch-delicadeza-text104">3</span>
+                                <span class="choch-delicadeza-text105">
+                                  x de
+                                </span>
+                                <span class="choch-delicadeza-text106">
+                                  R$29,97
+                                </span>
+                                <span>sem juros</span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="choch-delicadeza-divswiperslide08">
+                        <div class="choch-delicadeza-divquick173329649new">
+                          <div class="choch-delicadeza-divpositionrelative07">
+                            <img
+                              src="public/external/df36a31fd6874c96b8420e2a4f09a3ee1e8cce0a25aebf42461197-ayw-400h.png"
+                              alt="df36a31fd6874c96b8420e2a4f09a3ee1e8cce0a25aebf42461197"
+                              class="choch-delicadeza-df36a31fd6874c96b8420e2a4f09a3ee1e8cce0a25aebf4246"
+                            />
+                          </div>
+                          <div class="choch-delicadeza-divitemdescription07">
+                            <div
+                              class="choch-delicadeza-link-jogo-de-banheiro-docede-leite"
+                            >
+                              <div class="choch-delicadeza-divjsitemname07">
+                                <span class="choch-delicadeza-text108">
+                                  <span>Jogo De Banheiro Doce de Leite</span>
+                                </span>
+                              </div>
+                              <div
+                                class="choch-delicadeza-divitempricecontainer07"
+                              >
+                                <span class="choch-delicadeza-text110">
+                                  <span>R$89,90</span>
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class="choch-delicadeza-divjsmaxinstallments06"
+                            >
+                              <span class="choch-delicadeza-text112">
+                                <span class="choch-delicadeza-text113">3</span>
+                                <span class="choch-delicadeza-text114">
+                                  x de
+                                </span>
+                                <span class="choch-delicadeza-text115">
+                                  R$29,97
+                                </span>
+                                <span>sem juros</span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="choch-delicadeza-divjsswipernewprev">
+              <img
+                src="public/external/svg1199-v56f.svg"
+                alt="SVG1199"
+                class="choch-delicadeza-svg07"
+              />
+            </div>
+            <div class="choch-delicadeza-divjsswipernewnext">
+              <img
+                src="public/external/svg1203-k2em.svg"
+                alt="SVG1203"
+                class="choch-delicadeza-svg08"
+              />
+            </div>
+          </div>
+          <div class="choch-delicadeza-section4">
+            <div class="choch-delicadeza-divcontainer3">
+              <div class="choch-delicadeza-divrow07">
+                <div class="choch-delicadeza-divcol124">
+                  <div class="choch-delicadeza-heading22">
+                    <span class="choch-delicadeza-text117">
+                      <span>Promoções</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="choch-delicadeza-divcol125">
+                  <div class="choch-delicadeza-divjsswipersale">
+                    <div class="choch-delicadeza-divswiperwrapper4">
+                      <div class="choch-delicadeza-divswiperslide09">
+                        <div class="choch-delicadeza-divquick145962988sale">
+                          <div
+                            class="choch-delicadeza-divjsitemwithsecondaryimage3"
+                          >
+                            <div class="choch-delicadeza-divpositionrelative08">
+                              <img
+                                src="public/external/image06f261ad75b14762919fb16fdbc65f62159c5ed96a6e61228-qqak-400h.png"
+                                alt="IMAGE06f261ad75b14762919fb16fdbc65f62159c5ed96a6e61228"
+                                class="choch-delicadeza-image06f261ad75b14762919fb16fdbc65f62159c5ed96a6e6"
+                              />
+                            </div>
+                            <div class="choch-delicadeza-divjsofferlabel3">
+                              <span class="choch-delicadeza-text119">
+                                <span>
+                                  <span>33%</span>
+                                  <br />
+                                  <span>OFF</span>
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="choch-delicadeza-divitemdescription08">
+                            <div
+                              class="choch-delicadeza-link-kit-cozinha-oval3-peas-cristal-bordado"
+                            >
+                              <div class="choch-delicadeza-divjsitemname08">
+                                <span class="choch-delicadeza-text124">
+                                  <span>
+                                    Kit Cozinha Oval 3 Peças Cristal Bordado
+                                  </span>
+                                </span>
+                              </div>
+                              <div
+                                class="choch-delicadeza-divitempricecontainer08"
+                              >
+                                <span class="choch-delicadeza-text126">
+                                  <span>R$149,90</span>
+                                </span>
+                                <span class="choch-delicadeza-text128">
+                                  <span>R$99,90</span>
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class="choch-delicadeza-divjsmaxinstallments07"
+                            >
+                              <span class="choch-delicadeza-text130">
+                                <span class="choch-delicadeza-text131">3</span>
+                                <span class="choch-delicadeza-text132">
+                                  x de
+                                </span>
+                                <span class="choch-delicadeza-text133">
+                                  R$33,30
+                                </span>
+                                <span>sem juros</span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="choch-delicadeza-divswiperslide10">
+                        <div class="choch-delicadeza-divquick141902524sale">
+                          <div
+                            class="choch-delicadeza-divjsitemwithsecondaryimage4"
+                          >
+                            <div class="choch-delicadeza-divpositionrelative09">
+                              <img
+                                src="public/external/image0cdef799807741bf8033bb81642277461a48e11acf44f1244-y9l9-400h.png"
+                                alt="IMAGE0cdef799807741bf8033bb81642277461a48e11acf44f1244"
+                                class="choch-delicadeza-image0cdef799807741bf8033bb81642277461a48e11acf44f"
+                              />
+                            </div>
+                            <div class="choch-delicadeza-divjsofferlabel4">
+                              <span class="choch-delicadeza-text135">
+                                <span>
+                                  <span>29%</span>
+                                  <br />
+                                  <span>OFF</span>
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="choch-delicadeza-divitemdescription09">
+                            <div
+                              class="choch-delicadeza-link-jogo-de-banheiro-vezinho-kit3-peas"
+                            >
+                              <div class="choch-delicadeza-divjsitemname09">
+                                <span class="choch-delicadeza-text140">
+                                  <span>
+                                    Jogo De Banheiro Vezinho - Kit 3 Peças
+                                  </span>
+                                </span>
+                              </div>
+                              <div
+                                class="choch-delicadeza-divitempricecontainer09"
+                              >
+                                <span class="choch-delicadeza-text142">
+                                  <span>R$76,90</span>
+                                </span>
+                                <span class="choch-delicadeza-text144">
+                                  <span>R$54,90</span>
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class="choch-delicadeza-divjsmaxinstallments08"
+                            >
+                              <span class="choch-delicadeza-text146">
+                                <span class="choch-delicadeza-text147">2</span>
+                                <span class="choch-delicadeza-text148">
+                                  x de
+                                </span>
+                                <span class="choch-delicadeza-text149">
+                                  R$27,45
+                                </span>
+                                <span>sem juros</span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="choch-delicadeza-divswiperslide11">
+                        <div class="choch-delicadeza-divquick141902777sale">
+                          <div
+                            class="choch-delicadeza-divjsitemwithsecondaryimage5"
+                          >
+                            <div class="choch-delicadeza-divpositionrelative10">
+                              <img
+                                src="public/external/f298eccfae274cbd9e5bd7b4e591f3891c88c4a2dcaba5c44f1260-cjkf-400h.png"
+                                alt="f298eccfae274cbd9e5bd7b4e591f3891c88c4a2dcaba5c44f1260"
+                                class="choch-delicadeza-f298eccfae274cbd9e5bd7b4e591f3891c88c4a2dcaba5c44f"
+                              />
+                            </div>
+                            <div class="choch-delicadeza-divjsofferlabel5">
+                              <span class="choch-delicadeza-text151">
+                                <span>
+                                  <span>16%</span>
+                                  <br />
+                                  <span>OFF</span>
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="choch-delicadeza-divitemdescription10">
+                            <div
+                              class="choch-delicadeza-link-jogo-de-banheiro-bordado-ponteira-kitcom3-peas"
+                            >
+                              <div class="choch-delicadeza-divjsitemname10">
+                                <span class="choch-delicadeza-text156">
+                                  <span>
+                                    <span>
+                                      Jogo De Banheiro Bordado Ponteira - Kit
+                                    </span>
+                                    <br />
+                                    <span>com 3 Peças</span>
+                                  </span>
+                                </span>
+                              </div>
+                              <div
+                                class="choch-delicadeza-divitempricecontainer10"
+                              >
+                                <span class="choch-delicadeza-text161">
+                                  <span>R$82,90</span>
+                                </span>
+                                <span class="choch-delicadeza-text163">
+                                  <span>R$69,90</span>
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class="choch-delicadeza-divjsmaxinstallments09"
+                            >
+                              <span class="choch-delicadeza-text165">
+                                <span class="choch-delicadeza-text166">2</span>
+                                <span class="choch-delicadeza-text167">
+                                  x de
+                                </span>
+                                <span class="choch-delicadeza-text168">
+                                  R$34,95
+                                </span>
+                                <span>sem juros</span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="choch-delicadeza-divswiperslide12">
+                        <div class="choch-delicadeza-divquick173204190sale">
+                          <div class="choch-delicadeza-divitemimage">
+                            <div class="choch-delicadeza-divpositionrelative11">
+                              <img
+                                src="public/external/f3a8304435974e3ab7d33d5292d79356191cd8f2ecdf15ef891274-i89-400h.png"
+                                alt="f3a8304435974e3ab7d33d5292d79356191cd8f2ecdf15ef891274"
+                                class="choch-delicadeza-f3a8304435974e3ab7d33d5292d79356191cd8f2ecdf15ef89"
+                              />
+                            </div>
+                            <div class="choch-delicadeza-divjsofferlabel6">
+                              <span class="choch-delicadeza-text170">
+                                <span>
+                                  <span>25%</span>
+                                  <br />
+                                  <span>OFF</span>
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="choch-delicadeza-divitemdescription11">
+                            <div
+                              class="choch-delicadeza-link-kit2-tapetes-retangular2-rosas"
+                            >
+                              <div class="choch-delicadeza-divjsitemname11">
+                                <span class="choch-delicadeza-text175">
+                                  <span>Kit 2 Tapetes Retangular 2 Rosas</span>
+                                </span>
+                              </div>
+                              <div
+                                class="choch-delicadeza-divitempricecontainer11"
+                              >
+                                <span class="choch-delicadeza-text177">
+                                  <span>R$39,90</span>
+                                </span>
+                                <span class="choch-delicadeza-text179">
+                                  <span>R$29,90</span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="choch-delicadeza-divjsswipersaleprev">
+              <img
+                src="public/external/svg1278-tuhfl.svg"
+                alt="SVG1278"
+                class="choch-delicadeza-svg09"
+              />
+            </div>
+            <div class="choch-delicadeza-divjsswipersalenext">
+              <img
+                src="public/external/svg1282-7dij.svg"
+                alt="SVG1282"
+                class="choch-delicadeza-svg10"
+              />
+            </div>
+          </div>
+          <div class="choch-delicadeza-section5">
+            <div class="choch-delicadeza-divcontainerfluid1">
+              <div class="choch-delicadeza-divrow08">
+                <div class="choch-delicadeza-divcolmd8">
+                  <div class="choch-delicadeza-divjsnewsletter">
+                    <div class="choch-delicadeza-heading33">
+                      <span class="choch-delicadeza-text181">
+                        <span>Newsletter</span>
+                      </span>
+                    </div>
+                    <div class="choch-delicadeza-heading23">
+                      <span class="choch-delicadeza-text183">
+                        <span>Receba todas as promoções</span>
+                      </span>
+                    </div>
+                    <div class="choch-delicadeza-p">
+                      <span class="choch-delicadeza-text185">
+                        <span>
+                          Quer receber nossas ofertas? Cadastre-se e comece a
+                          recebê-las!
+                        </span>
+                      </span>
+                    </div>
+                    <div class="choch-delicadeza-form">
+                      <div class="choch-delicadeza-divinputappend">
+                        <div class="choch-delicadeza-input-email">
+                          <div class="choch-delicadeza-divplaceholder">
+                            <span class="choch-delicadeza-text187">
+                              <span>E-mail</span>
+                            </span>
+                          </div>
+                        </div>
+                        <img
+                          src="public/external/svg1301-qpp.svg"
+                          alt="SVG1301"
+                          class="choch-delicadeza-svg11"
+                        />
+                      </div>
+                      <input
+                        type="text"
+                        placeholder="ENVIAR"
+                        class="choch-delicadeza-input"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="choch-delicadeza-footer">
+            <div class="choch-delicadeza-divcontainerfluid2">
+              <div class="choch-delicadeza-divrow09">
+                <div class="choch-delicadeza-divcolmdmargin">
+                  <div class="choch-delicadeza-divcolmd">
+                    <div class="choch-delicadeza-heading4">
+                      <span class="choch-delicadeza-text189">
+                        <span>Crochê Delicadeza</span>
+                      </span>
+                    </div>
+                    <div class="choch-delicadeza-p1">
+                      <span class="choch-delicadeza-text191">
+                        <span>
+                          <span>
+                            Localizada na Capital Nacional do Crochê, com uma
+                            história
+                          </span>
+                          <br />
+                          <span>
+                            de mais de 10 anos oferecendo uma ampla variedade de
+                          </span>
+                          <br />
+                          <span>
+                            produtos para decoração da casa, nossas peças são
+                            fabricadas
+                          </span>
+                          <br />
+                          <span>
+                            em sua maioria de forma artesanal por habilidosas
+                            artesãs
+                          </span>
+                          <br />
+                          <span>
+                            que com agulha e fios, produzem verdadeiras obras de
+                            arte
+                          </span>
+                          <br />
+                          <span>
+                            que proporcionam um toque especial para o seu lar.
+                          </span>
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="choch-delicadeza-divcol4">
+                  <div class="choch-delicadeza-heading41">
+                    <span class="choch-delicadeza-text204">
+                      <span>Páginas</span>
+                    </span>
+                  </div>
+                  <div class="choch-delicadeza-list">
+                    <div class="choch-delicadeza-item-link">
+                      <span class="choch-delicadeza-text206">
+                        <span>Início</span>
+                      </span>
+                    </div>
+                    <div class="choch-delicadeza-item-link1">
+                      <span class="choch-delicadeza-text208">
+                        <span>Sobre</span>
+                      </span>
+                    </div>
+                    <div class="choch-delicadeza-item-link2">
+                      <span class="choch-delicadeza-text210">
+                        <span>Produtos</span>
+                      </span>
+                    </div>
+                    <div class="choch-delicadeza-item-link3">
+                      <span class="choch-delicadeza-text212">
+                        <span>Trocas e Devoluções</span>
+                      </span>
+                    </div>
+                    <div class="choch-delicadeza-item-link4">
+                      <span class="choch-delicadeza-text214">
+                        <span>Política de Privacidade</span>
+                      </span>
+                    </div>
+                    <div class="choch-delicadeza-item-link5">
+                      <span class="choch-delicadeza-text216">
+                        <span>Contato</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="choch-delicadeza-divcolmdmargin1">
+                  <div class="choch-delicadeza-divcolmd1">
+                    <div class="choch-delicadeza-heading42">
+                      <span class="choch-delicadeza-text218">
+                        <span>Contato</span>
+                      </span>
+                    </div>
+                    <div class="choch-delicadeza-list1">
+                      <div class="choch-delicadeza-item">
+                        <span class="choch-delicadeza-text220">
+                          <span>+55 (11)99999-9999</span>
+                        </span>
+                        <img
+                          src="public/external/svg1338-3k6.svg"
+                          alt="SVG1338"
+                          class="choch-delicadeza-svg12"
+                        />
+                      </div>
+                      <div class="choch-delicadeza-item1">
+                        <span class="choch-delicadeza-text222">
+                          <span>(11)9999-9999</span>
+                        </span>
+                        <img
+                          src="public/external/svg1343-r8r9.svg"
+                          alt="SVG1343"
+                          class="choch-delicadeza-svg13"
+                        />
+                      </div>
+                      <div class="choch-delicadeza-item2">
+                        <img
+                          src="public/external/svg1347-mzs.svg"
+                          alt="SVG1347"
+                          class="choch-delicadeza-svg14"
+                        />
+                        <span class="choch-delicadeza-text224">
+                          <span>
+                            <span>
+                              R. Atlântica, 731 - Jardim do Mar, São Bernardo do
+                              Campo -
+                            </span>
+                            <br />
+                            <span>SP, 09750-480</span>
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="choch-delicadeza-divcolmdmargin2">
+                  <div class="choch-delicadeza-divcolmd2">
+                    <div
+                      class="choch-delicadeza-linkinstagram-croch-maria-veronez"
+                    >
+                      <img
+                        src="public/external/svg1355-yize.svg"
+                        alt="SVG1355"
+                        class="choch-delicadeza-svg15"
+                      />
+                    </div>
+                    <div
+                      class="choch-delicadeza-linkfacebook-croch-maria-veronez"
+                    >
+                      <img
+                        src="public/external/svg1359-m6rf.svg"
+                        alt="SVG1359"
+                        class="choch-delicadeza-svg16"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                src="."
+                alt="divdivider1362"
+                class="choch-delicadeza-divdivider"
+              />
+              <div class="choch-delicadeza-divrow10">
+                <div class="choch-delicadeza-divcolmd9">
+                  <div class="choch-delicadeza-divrow11">
+                    <div class="choch-delicadeza-divcolmd4">
+                      <div class="choch-delicadeza-heading43">
+                        <span class="choch-delicadeza-text229">
+                          <span>Meios de pagamento</span>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="choch-delicadeza-divcolmd81">
+                      <img
+                        src="public/external/visa2xpng1370-zlrd-200h.png"
+                        alt="visa2xpng1370"
+                        class="choch-delicadeza-visa2xpng"
+                      />
+                      <img
+                        src="public/external/mastercard2xpng1371-o8dm-200h.png"
+                        alt="mastercard2xpng1371"
+                        class="choch-delicadeza-mastercard2xpng"
+                      />
+                      <img
+                        src="public/external/amex2xpng1372-vxjq-200h.png"
+                        alt="amex2xpng1372"
+                        class="choch-delicadeza-amex2xpng"
+                      />
+                      <img
+                        src="public/external/diners2xpng1373-aeng-200h.png"
+                        alt="diners2xpng1373"
+                        class="choch-delicadeza-diners2xpng"
+                      />
+                      <img
+                        src="public/external/aura2xpng1374-5ai9-200h.png"
+                        alt="aura2xpng1374"
+                        class="choch-delicadeza-aura2xpng"
+                      />
+                      <img
+                        src="public/external/elo2xpng1375-eyco-200h.png"
+                        alt="elo2xpng1375"
+                        class="choch-delicadeza-elo2xpng"
+                      />
+                      <img
+                        src="public/external/hipercard2xpng1376-48js-200h.png"
+                        alt="hipercard2xpng1376"
+                        class="choch-delicadeza-hipercard2xpng"
+                      />
+                      <img
+                        src="public/external/discover2xpng1377-4ats-200h.png"
+                        alt="discover2xpng1377"
+                        class="choch-delicadeza-discover2xpng"
+                      />
+                      <img
+                        src="public/external/pix2xpng1378-hxwl-200h.png"
+                        alt="pix2xpng1378"
+                        class="choch-delicadeza-pix2xpng"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="choch-delicadeza-divjsfooterlegal">
+              <div class="choch-delicadeza-divcontainerfluid3">
+                <div class="choch-delicadeza-divrow12">
+                  <div class="choch-delicadeza-divcolmd91"></div>
+                  <img
+                    src="public/external/divcolmd1384-jh1-200h.png"
+                    alt="divcolmd1384"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="choch-delicadeza-header">
+            <div class="choch-delicadeza-section6">
+              <div class="choch-delicadeza-divcontainerfluid4">
+                <div class="choch-delicadeza-divrow13">
+                  <div class="choch-delicadeza-divcol5">
+                    <div
+                      class="choch-delicadeza-linkinstagram-croch-maria-veronez1"
+                    >
+                      <img
+                        src="."
+                        alt="SVG1414"
+                        class="choch-delicadeza-svg17"
+                      />
+                    </div>
+                    <img
+                      src="."
+                      alt="LinkfacebookCrochMariaVeronezSVG1417"
+                      class="choch-delicadeza-linkfacebook-croch-maria-veronez-svg"
+                    />
+                  </div>
+                  <img
+                    src="public/external/divcol1420-66a8-200h.png"
+                    alt="divcol1420"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="choch-delicadeza-divcontainerfluid5">
+              <div class="choch-delicadeza-divrow14">
+                <div class="choch-delicadeza-divcolmd3">
+                  <div class="choch-delicadeza-divlogo">
+                    <div class="choch-delicadeza-link">
+                      <img
+                        src="public/external/image12484-h7j-200h.png"
+                        alt="image12484"
+                        class="choch-delicadeza-image1"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="choch-delicadeza-divcol6">
+                  <div class="choch-delicadeza-form1">
+                    <div class="choch-delicadeza-input-oquevocestbuscando">
+                      <div class="choch-delicadeza-divplaceholder1">
+                        <span class="choch-delicadeza-text231">
+                          <span>O que você está buscando?</span>
+                        </span>
+                      </div>
+                      <div class="choch-delicadeza-divtextfieldcontainer">
+                        <div class="choch-delicadeza-diveditingviewport"></div>
+                      </div>
+                    </div>
+                    <button class="choch-delicadeza-button-buscar">
+                      <img
+                        src="public/external/svg1435-xn1u.svg"
+                        alt="SVG1435"
+                        class="choch-delicadeza-svg18"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div class="choch-delicadeza-divcolauto3">
+                  <div class="choch-delicadeza-divutilitiescontainer">
+                    <div class="choch-delicadeza-divjsutilitiesitem">
+                      <div class="choch-delicadeza-divutilityhead">
+                        <img
+                          src="public/external/svg1442-dod.svg"
+                          alt="SVG1442"
+                          class="choch-delicadeza-svg19"
+                        />
+                        <span class="choch-delicadeza-text233">
+                          <span>Atendimento</span>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="choch-delicadeza-divnavdropdown">
+                      <div class="choch-delicadeza-divutilityhead1">
+                        <img
+                          src="public/external/svg1448-qy6d.svg"
+                          alt="SVG1448"
+                          class="choch-delicadeza-svg20"
+                        />
+                        <span class="choch-delicadeza-text235">
+                          <span>Minha conta</span>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="choch-delicadeza-divutilitiesitem">
+                      <div class="choch-delicadeza-divajaxcart">
+                        <div class="choch-delicadeza-link1">
+                          <img
+                            src="public/external/svg1455-ss9.svg"
+                            alt="SVG1455"
+                            class="choch-delicadeza-svg21"
+                          />
+                          <span class="choch-delicadeza-text237">
+                            <span>Meu carrinho</span>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="choch-delicadeza-spanjscartwidgetamount">
+                        <span class="choch-delicadeza-text239">0</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="choch-delicadeza-divrow15">
+                <div class="choch-delicadeza-divcol7">
+                  <div class="choch-delicadeza-divnavdesktop">
+                    <div class="choch-delicadeza-list2">
+                      <span class="choch-delicadeza-text240">
+                        <span>Início</span>
+                      </span>
+                      <span class="choch-delicadeza-text242">
+                        <span>Sobre</span>
+                      </span>
+                      <div class="choch-delicadeza-item3">
+                        <div class="choch-delicadeza-divnavitemcontainer">
+                          <div class="choch-delicadeza-link2">
+                            <span class="choch-delicadeza-text244">
+                              <span>Produtos</span>
+                            </span>
+                            <img
+                              src="public/external/svg1471-eawp.svg"
+                              alt="SVG1471"
+                              class="choch-delicadeza-svg22"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <span class="choch-delicadeza-text246">
+                        <span>Contato</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
